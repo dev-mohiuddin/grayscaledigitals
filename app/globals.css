@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.radius{
+  border-top-right-radius: 60%;
+  border-bottom-right-radius: 60%;
+  border-bottom-left-radius: 100%;
+  border-top-left-radius: 10%;
+
+}
+
+@layer components {
+  .container {
+    @apply max-w-screen-xl mx-auto md:px-10 px-4
+  }
+}
